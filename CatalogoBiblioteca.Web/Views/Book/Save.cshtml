@@ -1,0 +1,45 @@
+﻿@model CatalogoBiblioteca.Domain.Entities.Book
+
+<h2>Cadastro de Livros</h2>
+    <form class="form-horizontal" asp-action="Save" asp-controller="Book" method="POST">
+        <input type="hidden" class="form-control" asp-for="Id">
+        <div class="form-group">
+            <label for="Name" class="col-md-1 control-label">Nome da Obra</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" asp-for="Name" placeholder="Titulo da obra">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Version" class="col-md-1 control-label">Edição</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" asp-for="Version" placeholder="v.01">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Release" class="col-md-1 control-label">Data de Lançamento</label>
+            <div class="col-md-4">
+                <input type="date" class="form-control" asp-for="Release">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Publisher" class="col-md-1 control-label">Editora</label>
+            <div class="col-md-4">
+                <select class="form-control" asp-for="PublisherId"
+                    asp-items='@(new SelectList(@ViewBag.Publishers, "Id", "Name"))'>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Author" class="col-md-1 control-label">Autor</label>
+            <div class="col-md-4">
+                <select class="form-control" asp-for="AuthorId"
+                    asp-items='@(new SelectList(@ViewBag.Authors, "Id", "Name"))'>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-2">
+                <button class="btn btn-success">Salvar</button>
+            </div>
+        </div>
+    </form>

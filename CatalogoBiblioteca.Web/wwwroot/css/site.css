@@ -1,0 +1,125 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.titleEntity {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.centraliza {
+    padding-top: 60px;
+}
+
+.img__container-logo { 
+    display: flex !important; 
+    justify-content: center !important;
+}
+
+.cards {
+    padding: 80px 0px 80px;
+    width: 60%;
+    max-width: 100%;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 229px;
+    width: 229px;
+    box-shadow: 0px 3px 6px #05205321;
+    border-radius: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img {
+    margin: 60px 60px 0;
+}
+
+.card .content-card {
+    position: relative;
+    top: 35px;
+
+    visibility: hidden;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 208px;
+    height: 78px;
+    border-radius: 16px;
+    margin-left: 11px;
+    background: #052053;
+    transition: 0.3s ease-in-out;
+}
+
+.card .content-card div {
+    width: 176px;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0px 3px 15px #05205321;
+}
+
+.card:hover .content-card {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+

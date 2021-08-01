@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CatalogoBiblioteca.Domain.Entities.Author>
+
+<h2 class="titleEntity">Autores Cadastrados</h2>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 centraliza">
+        <a href="/Author/Save" class="btn btn-primary">Novo Autor</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 centraliza">
+        <table class="table table-hover mx-auto">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.CPF</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Email</td>
+                        <td>
+                            <a href="/Author/Edit/@item.Id" class="btn btn-info">Editar</a>
+                        </td>
+                         <td>
+                            <a href="/Author/Delete/@item.Id" class="btn btn-danger">Deletar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

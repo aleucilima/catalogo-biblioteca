@@ -1,0 +1,9 @@
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/bin/Debug/netstandard2.0/CatalogoBiblioteca.Domain.deps.json
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/bin/Debug/netstandard2.0/CatalogoBiblioteca.Domain.dll
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/bin/Debug/netstandard2.0/CatalogoBiblioteca.Domain.pdb
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.csprojAssemblyReference.cache
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.csproj.CoreCompileInputs.cache
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.AssemblyInfoInputs.cache
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.AssemblyInfo.cs
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.dll
+/home/ale/Área de Trabalho/www/catalogo-biblioteca/CatalogoBiblioteca.Domain/obj/Debug/netstandard2.0/CatalogoBiblioteca.Domain.pdb
