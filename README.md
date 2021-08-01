@@ -7,7 +7,7 @@ Versão 1.0
 
 # Introdução
 
-    Este projeto é um catálogo para uma biblioteca, onde é possível realizar um CRUD (Create, Read, Update e Delete) em 3 diferentes objetos,
+  Este projeto é um catálogo para uma biblioteca, onde é possível realizar um CRUD (Create, Read, Update e Delete) em 3 diferentes objetos,
 Editoras, Autores e Livros, como proposta para o teste de vaga de estágio da RA System, porém conforme o tempo, será atualizada para um software real. Sendo utilizada as tecnologias:
 
   - [ASP.NET Core 2.1]()
