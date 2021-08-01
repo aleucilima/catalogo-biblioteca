@@ -35,3 +35,5 @@ Para realizar a build deste projeto é necessário os seguintes softwares:
   - dotnet build 
   - dotnet watch run 
 
+3. Conexão com BANCO:
+  - É necessário colocar o Database, Usuário e Password na DefaultConnection em appsettings.json.
