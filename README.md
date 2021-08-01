@@ -13,8 +13,8 @@ Editoras, Autores e Livros, como proposta para o teste de vaga de estágio da RA
   - [SQL Server]()
   - [Bootstrap 4]()
   - [JavaScript]()
-  - [CSS3] ()
-  - [HTML5] ()
+  - [CSS3]()
+  - [HTML5]()
 
 
 # Como Iniciar #
