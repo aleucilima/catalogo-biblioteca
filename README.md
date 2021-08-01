@@ -2,10 +2,10 @@
 
 Versão 1.0 
 
-# Introdução
-
 ![alt text](https://raw.githubusercontent.com/aleucilima/catalogo-biblioteca/master/CatalogoBiblioteca.Web/wwwroot/images/HomePageBiblioteca.jpg)
 
+
+# Introdução
 
     Este projeto é um catálogo para uma biblioteca, onde é possível realizar um CRUD (Create, Read, Update e Delete) em 3 diferentes objetos,
 Editoras, Autores e Livros, como proposta para o teste de vaga de estágio da RA System, porém conforme o tempo, será atualizada para um software real. Sendo utilizada as tecnologias:
