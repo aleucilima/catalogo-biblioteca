@@ -12,9 +12,9 @@ Editoras, Autores e Livros, como proposta para o teste de vaga de estágio da RA
   - [Entity Framework 2.1]()
   - [SQL Server]()
   - [Bootstrap 4]()
-  - [JavaScript]
-  - [CSS3]
-  - [HTML5]
+  - [JavaScript]()
+  - [CSS3] ()
+  - [HTML5] ()
 
 
 # Como Iniciar #
@@ -28,7 +28,7 @@ Para realizar a build deste projeto é necessário os seguintes softwares:
   - .NET Runtime 2.1.
 
 2. Comandos .NET:
-  - # dotnet restore #
-  - # dotnet build #
-  - # dotnet watch run #
+  - dotnet restore 
+  - dotnet build 
+  - dotnet watch run 
 
