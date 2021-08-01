@@ -31,7 +31,7 @@ Para realizar a build deste projeto é necessário os seguintes softwares:
   - .NET Runtime 2.1.
 
 2. Comandos .NET:
-  - dotnet restore 
-  - dotnet build 
-  - dotnet watch run 
+    dotnet restore 
+    dotnet build 
+    dotnet watch run 
 
